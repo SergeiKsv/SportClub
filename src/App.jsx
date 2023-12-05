@@ -1,11 +1,8 @@
 import "./App.css";
+import SignIn from "./Login/Signin.jsx";
 
 function App() {
-  return (
-    <div>
-      <p>Hello world</p>
-    </div>
-  );
+  return <SignIn />;
 }
 
 export default App;
